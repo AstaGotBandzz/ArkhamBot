@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client
-const prefix = 'T!';
+const prefix = 'A!';
 const fs = require('fs')
 
 const memberCounter = require('./counters/counter');
