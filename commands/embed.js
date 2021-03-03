@@ -13,7 +13,6 @@ module.exports = {
             {name: 'a!Kick', value: 'Kicks a user from the server'},
             {name: 'A!unmute', value: 'Unmutes a user from chat'},
         )            
-        .setImage('https://media.discordapp.net/attachments/786578219092410419/809175852276908062/ezgif.com-gif-maker_46.gif')
         .setFooter('Custom Bot | Coded by !Asta#0001');
 
         message.channel.send(newEmbed);
