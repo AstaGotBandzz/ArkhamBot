@@ -32,7 +32,7 @@ client.on('guildMemberAdd', guildMember => {
     .setColor('#ff3067')
     .setAuthor(`${guildMember.user.tag} Has Joined!`, guildMember.user.displayAvatarURL,)
     .addField('Total Members', guildMember.guild.memberCount, true)
-    .setImage('https://tenor.com/view/redhood-jason-todd-batman-arkham-gun-gif-4945005')
+    .setImage('https://tenor.com/view/the-dark-knight-batman-jason-todd-arkham-knight-gif-4316199')
 
     guildMember.guild.channels.cache.get('814926996533805117').send(embed);
 });
