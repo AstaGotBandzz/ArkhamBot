@@ -10,7 +10,7 @@ module.exports = {
             {name:'A!ban', value: 'Bans user from the server'},
             {name:'A!mute', value: 'Mutes a user from chat'},
             {name: 'A!clear', value: `Deletes messages from a given channel(1-100)`},
-            {name: 'a!Kick', value: 'Kicks a user from the server'},
+            {name: 'A!Kick', value: 'Kicks a user from the server'},
             {name: 'A!unmute', value: 'Unmutes a user from chat'},
         )            
         .setFooter('Custom Bot | Coded by !Asta#0001');
