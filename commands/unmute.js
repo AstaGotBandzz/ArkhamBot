@@ -2,7 +2,7 @@ module.exports = {
     name: 'unmute',
     description: "mutes a guild member",
     execute(message, args){
-        if (message.member.roles.cache.some(r => r.name === "Trial Mod") || message.member.roles.cache.some(r => r.name === "Mod") || message.member.roles.cache.some(r => r.name === "Head Mod") || message.member.roles.cache.some(r => r.name === "Admin") || message.member.roles.cache.some(r => r.name === "Senior Admin") || message.member.roles.cache.some(r => r.name === "Head Of Staff") || message.member.roles.cache.some(r => r.name === "Vice-Captain") || message.member.roles.cache.some(r => r.name === "Captain")){
+        if (message.member.roles.cache.some(r => r.name === "Moderator") || message.member.roles.cache.some(r => r.name === "Head Moderator") || message.member.roles.cache.some(r => r.name === "Administrator") || message.member.roles.cache.some(r => r.name === "Senior Administrator") || message.member.roles.cache.some(r => r.name === "Server Manager") || message.member.roles.cache.some(r => r.name === "Co-Owner") || message.member.roles.cache.some(r => r.name === "+")|| message.member.roles.cache.some(r => r.name === "Triad")){
         const target = message.mentions.users.first();
         if(target){
             let mainRole = message.guild.roles.cache.find(role => role.name === 'Regular Goons');
