@@ -18,12 +18,12 @@ for(const file of commandFiles){
 
 client.once('ready', () => {
     console.log('Seijoh is now alive!');
-    client.user.setActivity({ type: "PLAYING", name: " Prefix = T!" });
+    client.user.setActivity({ type: "PLAYING", name: " The Entire Fucking Community" });
     memberCounter(client);
 });
 
 client.on('guildMemberAdd', guildMember => {
-    let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === 'Member');
+    let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === 'Citizen');
 
     guildMember.roles.add(welcomeRole);
     
