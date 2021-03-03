@@ -32,8 +32,7 @@ client.on('guildMemberAdd', guildMember => {
     .setColor('#ff3067')
     .setAuthor(`${guildMember.user.tag} Has Joined!`, guildMember.user.displayAvatarURL,)
     .addField('Total Members', guildMember.guild.memberCount, true)
-    .setImage('https://tenor.com/view/the-dark-knight-batman-jason-todd-arkham-knight-gif-4316199')
-
+    .setImage('https://cdn.discordapp.com/attachments/814927009012514866/816743784317583380/Arkham_Welcome.gif')
     guildMember.guild.channels.cache.get('814926996533805117').send(embed);
 });
 
