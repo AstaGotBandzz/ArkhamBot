@@ -28,7 +28,7 @@ client.on('guildMemberAdd', guildMember => {
     guildMember.roles.add(welcomeRole);
     
     let embed = new Discord.MessageEmbed()
-    .setDescription('Welcome To **Arkham!**Check out Server Info and Rules chat to get familliar with the server!')
+    .setDescription('Welcome To **Arkham!** Check out Server Info and Rules chat to get familliar with the server!')
     .setColor('#ff3067')
     .setAuthor(`${guildMember.user.tag} Has Joined!`, guildMember.user.displayAvatarURL,)
     .addField('Total Members', guildMember.guild.memberCount, true)
